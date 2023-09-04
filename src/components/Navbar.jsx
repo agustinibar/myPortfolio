@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <>
       <ul className={`sm:flex ${isOpen ? '' : 'hidden'} text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px]`}>
-        <li><a href="#">Home</a></li>
+        <li><a href="http://localhost:5173">Home</a></li>
         <li><a href="#">About me</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Technologies</a></li>
