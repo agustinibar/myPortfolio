@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { NavLink } from "react-router-dom";
 import { useModoOscuro } from "../contexts/DarkMode";
 
 export const Navbar = () => {
@@ -13,20 +14,20 @@ export const Navbar = () => {
     <>
       <ul
         className={`sm:flex ${isOpen ? "" : "hidden"} ${
-          darkMode ? "bg-LiteRed":"bg-Marfil"
+          darkMode ? "bg-LiteRed" : "bg-Marfil"
         } text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px]`}
       >
         <li>
-          <a href="https://ibarsportfolio.netlify.app/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="https://ibarsportfolio.netlify.app/about-me">About me</a>
+          <NavLink to="/about-me">About me</NavLink>
         </li>
         <li>
-          <a href="https://ibarsportfolio.netlify.app/portfolio">Portfolio</a>
+          <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
         <li>
-          <a href="https://ibarsportfolio.netlify.app/contact">Contact</a>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
         <button
           onClick={toggleDarkMode}
@@ -56,4 +57,3 @@ export const Navbar = () => {
     </>
   );
 };
-
