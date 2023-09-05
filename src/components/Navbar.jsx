@@ -17,16 +17,16 @@ export const Navbar = () => {
         } text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px]`}
       >
         <li>
-          <a href="http://localhost:5173">Home</a>
+          <a href="https://ibarsportfolio.netlify.app/">Home</a>
         </li>
         <li>
-          <a href="http://localhost:5173/about-me">About me</a>
+          <a href="https://ibarsportfolio.netlify.app/about-me">About me</a>
         </li>
         <li>
-          <a href="http://localhost:5173/portfolio">Portfolio</a>
+          <a href="https://ibarsportfolio.netlify.app/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="http://localhost:5173/contact">Contact</a>
+          <a href="https://ibarsportfolio.netlify.app/contact">Contact</a>
         </li>
         <button
           onClick={toggleDarkMode}
