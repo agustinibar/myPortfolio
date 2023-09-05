@@ -8,18 +8,21 @@ export const ArticlesContainer = () => {
   return (
     <section className='mt-6 sm:flex'>
         <Article
+        id='rick-and-morty'
         img={rickMorty}
         num='01'
         tittle='Rick & Morty'
         text='This was my first project based on the Rick&Morty api and using the PERN stack'
         />
         <Article
+        id='doggie'
          img={doggie}
          num='02'
          tittle='Doggie'
          text='An app, using PERN stack and designed for a dog adoption clinic'
          />
         <Article
+        id='dream-lodge'
          img={dreamlodge}
          num='03'
          tittle='Dream Lodge'
